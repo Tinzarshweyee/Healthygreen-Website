@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  </style>
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-sm navbar-dark rounded-3" style="background-color:rgb(159, 223, 159)">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="javascript:void(0)">
+        <img src="Images/logo.svg"  alt="HealthFood">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item mx-auto d-block">
+            <a class="nav-link" href="index.html"><h2>Home</h2></a>
+          </li>
+          <li class="nav-item mx-auto d-block">
+            <a class="nav-link" href="services.html"><h2>Services</h2></a>
+          </li>
+          <li class="nav-item mx-auto d-block">
+            <a class="nav-link" href="about.html"><h2>About</h2></a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-success" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container-fluid mt-3" >
+    <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      
+      <img src="Images/fruit1.svg" alt="Los Angeles" class="rounded d-block" style="width:100%">
+      <div class="centered"><h4 class="text-center text-light">A way of Keep your Body fit and healthy</h4></div>
+    </div>
+    <div class="carousel-item">
+      <img src="Images/fruit2.svg" alt="Chicago" class="rounded d-block" style="width:100%">
+      <div class="centered"><h4 class="text-center text-light">A way of Keep your Body fit and healthy</h4></div>
+    </div>
+    <div class="carousel-item">
+      <img src="Images/fruit3.svg" alt="New York" class="rounded d-block" style="width:100%">
+      <div class="centered"><h4 class="text-center text-light">A way of Keep your Body fit and healthy</h4></div>
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+  <div class="container-fluid mt-3">
+    <br>
+    <h2 class="text-center"><mark class="rounded-4 " style="background-color:rgb(159, 223, 159)">What We Offer You...</mark></h2><br><br>
+
+    <div class="row">
+      <div class="col-sm-4 text-dark ">
+        <div class="card mx-auto d-block rounded"  style="width:90%">
+          <img class="card-img-top img-fluid mx-auto d-block" src="Images/tips.svg" alt="Card image" style="width:70%">
+          <div class="card-body">
+            <h4 class="text-center">Health Campaigns..</h4>
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4  text-dark">
+       
+        <div class="card mx-auto d-block" style="width:90%">
+          <img class="card-img-top img-fluid mx-auto d-block" src="Images/article.svg" alt="Card image" style="width:70%">
+          <div class="card-body">
+            <h4 class="text-center">Articles...</h4>
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4  text-dark">
+        <div class="card mx-auto d-block" style="width:90%">
+          <img class="card-img-top img-fluid mx-auto d-block" src="Images/call.svg" alt="Card image" style="width:50%" >
+          <div class="card-body">
+            <h4 class="text-center">Call from Experts...</h4>
+           
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+        <!-- footer -->
+          <div class="mt-4 p-5  text-white text-center rounded" style="background-color:rgb(159, 223, 159)">
+            <h1>Want to get daily healthy food list?</h1>
+            <form action="#">
+              <div class="mb-3 mt-3">
+                <label for="email"><h3>Drop Your Email Here:</h3></label>
+                <input type="email" class="form-control text-center mx-auto d-block" id="email" placeholder="Enter your email" name="email" style="width:60%;">
+              </div>
+            </form>
+            <br>
+
+            <h3 class="text-center">Contact Us On:</h3>
+            <br>
+            <div class="btn-group">
+            <img src="Images/fblogo.svg" alt="facebook" style="width:45px;">
+            <img src="Images/emaillogo.svg" alt="facebook" style="width:50px;">
+            <img src="Images/twitterlogo.svg" alt="facebook" style="width:45px;">
+            </div>
+            
+
+
+          </div>
+        
+
+  </div>
+
+
+      
+
+
+</div>
+  
+
+
+    
+    
+</body>
+</html>
